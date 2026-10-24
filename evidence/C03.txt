@@ -1,0 +1,19 @@
+{
+  "id": "C03",
+  "version": "embedded-candidate-v1",
+  "input": {
+    "items": {
+      "LOW": 1
+    },
+    "promo": "",
+    "fulfillment": "delivery"
+  },
+  "actual": {
+    "subtotal": 299999,
+    "eligible_subtotal": 0,
+    "discount": 0,
+    "after_discount": 299999,
+    "delivery": 29900,
+    "total": 329899
+  }
+}

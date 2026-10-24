@@ -1,0 +1,13 @@
+﻿id,items,promo,fulfillment,expected
+C01,B3000:1,,delivery,"after=300000; delivery=0; total=300000"
+C02,B3000:1,,pickup,"delivery=0; total=300000"
+C03,LOW:1,,delivery,"after=299999; delivery=29900; total=329899"
+C04,HIGH:1,,delivery,"after=300001; delivery=0; total=300001"
+C05,E3000:1,STUDY10,delivery,"discount=30000; after=270000; delivery=29900; total=299900"
+C06,E10005:1,STUDY10,delivery,"discount=1001; after=9004; delivery=29900; total=38904"
+C07,E10005:1|N200:1,STUDY10,delivery,"subtotal=30005; discount=1001; after=29004; total=58904"
+C08,S2:2,,delivery,"subtotal=30000; delivery=29900; total=59900"
+C09,S2:3,,delivery,"error=QUANTITY (3>2)"
+C10,S2:2,,pickup,"total=30000; delivery=0"
+C01R,B3000:1,,delivery,"повтор C01"
+C06R,E10005:1,STUDY10,delivery,"повтор C06"

@@ -1,0 +1,9 @@
+﻿id,price,stock,eligible
+B3000,300000,10,false
+E3000,300000,10,true
+E10005,10005,10,true
+N200,20000,10,false
+LOW,299999,10,false
+HIGH,300001,10,false
+S2,15000,2,true
+ZERO,90000,0,true

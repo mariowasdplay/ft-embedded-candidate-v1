@@ -1,0 +1,19 @@
+{
+  "id": "C04",
+  "version": "embedded-candidate-v1",
+  "input": {
+    "items": {
+      "HIGH": 1
+    },
+    "promo": "",
+    "fulfillment": "delivery"
+  },
+  "actual": {
+    "subtotal": 300001,
+    "eligible_subtotal": 0,
+    "discount": 0,
+    "after_discount": 300001,
+    "delivery": 0,
+    "total": 300001
+  }
+}

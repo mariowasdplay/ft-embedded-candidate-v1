@@ -1,0 +1,19 @@
+{
+  "id": "C06R",
+  "version": "embedded-candidate-v1",
+  "input": {
+    "items": {
+      "E10005": 1
+    },
+    "promo": "STUDY10",
+    "fulfillment": "delivery"
+  },
+  "actual": {
+    "subtotal": 10005,
+    "eligible_subtotal": 10005,
+    "discount": 1000,
+    "after_discount": 9005,
+    "delivery": 29900,
+    "total": 38905
+  }
+}
